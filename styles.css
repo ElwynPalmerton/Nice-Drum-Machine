@@ -1,0 +1,91 @@
+body {
+  background-image: url("clouds.jpg");
+
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 1px solid #cfbf11;
+
+  height: 800px;
+  margin: 2%;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+}
+
+.filler {
+  height: 350px;
+}
+
+.heading {
+  bottom: 50px;
+  font-family: "Bungee Hairline", cursive;
+  font-size: 50px;
+  color: #cfbf11;
+}
+
+.sounds {
+  position: relative;
+  margin: 50% 50%;
+}
+
+h2 {
+  font-family:  "Bungee Hairline", cursive;
+  color: greenyellow;
+}
+
+.drum {
+  /* border-radius: 50px; */
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto Mono", monospace;
+  color: #314b4b;
+}
+
+.drum {
+  border: 5px solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  background-color: hsla(180, 50%, 50%, 0.2);
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 0%;
+}
+
+p {
+  display: inline;
+  text-align: center;
+  position: relative;
+  font-size: 0.8em;
+}
+
+.hit {
+  border: 5px solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  color: hsla(13, 90%, 59%, 0.7);
+  background-color: hsla(52, 82%, 53%, 0.2);
+  width: 110px;
+  height: 110px;
+  top: -12px;
+}
+
+.hit h1 {
+  top: -15%;
+  font-size: 60px;
+}
+
+.hit p {
+  display: none;
+}
