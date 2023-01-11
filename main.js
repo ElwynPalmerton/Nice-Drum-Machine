@@ -1,4 +1,4 @@
-console.log("hello");
+console.log("hello 2");
 
 let keys = ["a", "s", "d", "f", "j", "k", "l", ";"];
 
